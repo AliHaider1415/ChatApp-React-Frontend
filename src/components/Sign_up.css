@@ -1,0 +1,30 @@
+input[type = "tel"] {
+  padding: 0.7vw 9vw 0.7vw 2.5vw;
+  border-radius: 5px;
+  outline: none;
+  background: url('../assets/user.png') no-repeat 0.5vw center;
+  background-size: 1.5vw;
+  background-color: rgb(232, 230, 230);
+  color: black;
+}
+
+input[type="email"] {
+  outline: none;
+  padding: 0.7vw 9vw 0.7vw 2.5vw;
+  background: url('../assets/email.png') no-repeat 0.5vw center;
+  background-size: 1.5vw;
+  background-color: rgb(240, 236, 236);
+}
+
+input[type="password"] {
+  outline: none;
+  padding: 0.7vw 9vw 0.7vw 2.5vw;
+  background: url('../assets/password.png') no-repeat 0.5vw center;
+  background-size: 1.5vw;
+  background-color: rgb(245, 243, 243);
+}
+.img_container{
+  background-image: url('../assets/welcome_bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
